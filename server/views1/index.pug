@@ -1,0 +1,20 @@
+html 
+  head 
+    title Jainam 
+    style 
+      include index.css
+       
+  body 
+    form(action="/admin/login", method="post" class="fle")
+     div(class='form')
+      h1 Fill The Form 
+      input(type="email" name="mail" placeholder="enter your email here" class="h")
+      input(type="password" name="password" placeholder="enter yout password" class="pass")
+      button(class="btn" type="submit" ) login 
+    form(action="/admin/register" method="post" class="fle")
+     div(class='form' id="form" )
+      h1 Fill The Form 
+      input(type="email" name="mail" placeholder="enter your email here" class="h")
+      input(type="password" name="password" placeholder="enter yout password" class="pass")
+      button(class="btn" type="submit" ) register 
+      
